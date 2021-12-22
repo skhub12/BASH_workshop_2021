@@ -5,6 +5,7 @@ Venue: Solbosch Campus of ULB,
  at Avenue Fr. Roosevelt, 42, 1050 Brussels (the Solvay building). 
 Room: R42.3.103
 Time:10-12AM.
+Speaker: Dr.Shruti Kulkarni
 
 
 --------------------------------------------------------------------------------------------------------------------------------------
