@@ -23,15 +23,16 @@ The syntax for the pipe or unnamed pipe command is the | (vertical bar or vertib
   
   ![pipingtutorial](https://user-images.githubusercontent.com/51481004/147520688-52bdc8b7-0e2f-4340-b78d-fd8153245bf5.png)[^note].
 
-
-  #Here, you cannot pipe anymore once you choose to save the standard output of the last command to a file. Therefore, tee command comes handy and one can continue piping using | vertibar. 
+  P.S. It is not necessary to use 1 before > sign, linux BASH identifies 1 as standard output by default and 0 as standard input. 
+  Here, you cannot pipe anymore once you choose to save the standard output of the last command to a file. Therefore, tee command comes handy and one can continue piping using | vertibar. 
   
   ##### Piping tutorial with Tee command:
     
     date | tee vandag.txt | cut --delimiter=' ' --fields=1 #output of the date command (full date) is stored into the vandag.txt and then sent to the cut command. 
     
-   [^note]: 
-   It is not necessary to use 1 before > sign, linux BASH identifies 1 as standard output by default and 0 as standard input. 
+   [^note]: Tutorial link: https://gist.github.com/skhub12/e4c978b8adad4d7a3537cdb755e1f626
+   
+   
 
 
 
