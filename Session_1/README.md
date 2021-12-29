@@ -1,4 +1,4 @@
-## CHEATSHEET 1 - LINUX BASH SHELL BASICS
+#### CHEATSHEET 1 - LINUX BASH SHELL BASICS
 ![cheat sheet1](https://user-images.githubusercontent.com/51481004/147517355-512159db-d664-48b2-ba74-de32410da021.png)  
   
 -----------------------------------------------------------------------------------------------------------------------------------------
@@ -13,8 +13,8 @@
   
     ![caldate](https://user-images.githubusercontent.com/51481004/147515209-29fc2274-b83e-4741-9828-f0a491615039.png)
     ------------------------------------------------------------------------------------------------------------------------------------------
-    ### Piping basics
-    In Linux, the pipe command lets you sends the output of one command to another. Piping, as the term suggests, can redirect the standard output, input, or error of one process to another for further processing.
+#### Piping basics
+In Linux, the pipe command lets you sends the output of one command to another. Piping, as the term suggests, can redirect the standard output, input, or error of one process to another for further processing.
 
 The syntax for the pipe or unnamed pipe command is the | (vertical bar or vertibar) character between any two commands:
 
@@ -30,7 +30,7 @@ The syntax for the pipe or unnamed pipe command is the | (vertical bar or vertib
     
     date | tee vandag.txt | cut --delimiter=' ' --fields=1 #output of the date command (full date) is stored into the vandag.txt and then sent to the cut command. 
     
-   [^note]: Tutorial link: https://gist.github.com/skhub12/e4c978b8adad4d7a3537cdb755e1f626
+   [^note]: Piping Tutorial Code link: https://gist.github.com/skhub12/e4c978b8adad4d7a3537cdb755e1f626
    
    
 
