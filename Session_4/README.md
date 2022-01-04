@@ -20,7 +20,7 @@
 
 #####      tac/rev tutorial:
     
-    First of all, decompress the data file tac.txt
+    First of all, download the data file tac.txt
    
     $cat tac.txt          # Print contents of the file 
     $tac tac.txt          # tac - concatenates and prints files in reverse (vertically) 
